@@ -16,4 +16,7 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
+# 添加其他软件包，格式：git clone https://github.com/P3TERX/xxx package/xxx
+
+# 关机
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
