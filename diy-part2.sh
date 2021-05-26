@@ -19,5 +19,5 @@ sed -i '/uci commit system/i\uci set system.@system[0].hostname='Soft_Routes'' p
 # 加入编译者名字
 sed -i "s/OpenWrt /Mario build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
-# 修改默认的主题
+# 修改默认主题
 sed -i "s/luci-theme-bootstrap/luci-theme-argon_new/g" feeds/luci/collections/luci/Makefile
