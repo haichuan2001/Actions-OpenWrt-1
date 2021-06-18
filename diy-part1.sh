@@ -18,5 +18,5 @@
 
 # 添加其他软件包，格式：git clone https://github.com/P3TERX/xxx package/xxx
 
-# 关机
+# 关机插件
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
