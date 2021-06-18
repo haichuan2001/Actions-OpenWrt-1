@@ -17,7 +17,7 @@ sed -i 's/192.168.1.1/10.0.0.2/g' package/base-files/files/bin/config_generate
 sed -i '/uci commit system/i\uci set system.@system[0].hostname='Soft_Routes'' package/lean/default-settings/files/zzz-default-settings
 
 # 加入编译者名字
-sed -i "s/OpenWrt /Mario build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
+sed -i "s/OpenWrt /Kinoko build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
 # 修改默认主题
 sed -i "s/luci-theme-bootstrap/luci-theme-argon_new/g" feeds/luci/collections/luci/Makefile
