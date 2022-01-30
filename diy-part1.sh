@@ -22,6 +22,5 @@
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
 
 # Argon主题
-cd package/lean
-rm -rf luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
+rm -rf package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
