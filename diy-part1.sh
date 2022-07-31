@@ -31,8 +31,8 @@ echo "useVersionInfo=$useVersionInfo" >> $GITHUB_ENV
 echo "DATE=$(date "+%Y年%m月%d日%H时%M分")" >> $GITHUB_ENV
 echo "DATE1=$(date "+%Y.%m.%d")" >> $GITHUB_ENV
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-sed -i '$a src-git haichuan https://github.com/haichuan2001/openwrt-packages' feeds.conf.default
-sed -i '$a src-git small https://github.com/haichuan2001/small' feeds.conf.default
+#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+##sed -i '$a src-git haichuan https://github.com/haichuan2001/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git small https://github.com/haichuan2001/small' feeds.conf.default
 # sed -i '$a src-git AdGuardHome https://github.com/haichuan2001/AdGuardHome44.git' feeds.conf.default
 sed -i '$a src-git IPTV https://github.com/haichuan2001/openwrt-iptvhelper.git' feeds.conf.default
